@@ -1,6 +1,6 @@
 //API_URL
 //const API_URL = "http://localhost:8000/api";
-const API_URL = "https://new.pushit.in/api";
+const API_URL = "https://push.gotiking.com/api";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -12,7 +12,7 @@ const firebaseConfig = {
   storageBucket: "ludo-b0877.appspot.com",
   messagingSenderId: "327439659478",
   appId: "1:327439659478:web:07f15ed6ecb9c6ec04b477",
-  measurementId: "G-BHMVNXRVME"
+  measurementId: "G-BHMVNXRVME",
 };
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
